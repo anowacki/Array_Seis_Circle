@@ -8,9 +8,9 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 
-from array_info import array 
-from vespagram import Vespagram_Lin, Vespagram_PWS, Baz_vespagram_PWS, Baz_vespagram_Lin
-from array_plotting import plotting
+from circ_array.array_info import array 
+from circ_array.vespagram import Vespagram_Lin, Vespagram_PWS, Baz_vespagram_PWS, Baz_vespagram_Lin
+from circ_array.array_plotting import plotting
 
 
 # parameters

@@ -14,8 +14,8 @@ from sklearn.metrics import mean_squared_error as mse
 from obspy.taup import TauPyModel
 model = TauPyModel(model="prem")
 
-from array_info import array
-from shift_stack import calculate_time_shifts
+from circ_array.array_info import array
+from circ_array.shift_stack import calculate_time_shifts
 
 # parameters
 # phase of interest

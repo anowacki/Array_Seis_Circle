@@ -7,8 +7,8 @@ import obspy
 import numpy as np
 import matplotlib.pyplot as plt
 
-from array_info import array
-from shift_stack import pws_stack_baz_slow, linear_stack_baz_slow
+from circ_array.array_info import array
+from circ_array.shift_stack import pws_stack_baz_slow, linear_stack_baz_slow
 
 phase = 'SKS'
 phases = ['SKS','SKKS','ScS','Sdiff','sSKS','sSKKS','PS']

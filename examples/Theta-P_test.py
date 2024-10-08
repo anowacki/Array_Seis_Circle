@@ -8,9 +8,9 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 
-from array_info import array 
-from beamforming_polar import BF_Pol_all, BF_Pol_Lin, BF_Pol_PWS
-from array_plotting import plotting
+from circ_array.array_info import array 
+from circ_array.beamforming_polar import BF_Pol_all, BF_Pol_Lin, BF_Pol_PWS
+from circ_array.array_plotting import plotting
 
 # parameters
 # phase of interest

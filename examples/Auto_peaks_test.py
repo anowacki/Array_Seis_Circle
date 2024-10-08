@@ -9,12 +9,12 @@ import time
 import scipy
 import matplotlib.pyplot as plt
 
-from array_info import array 
-from beamforming_xy import BF_XY_PWS
-from beamforming_polar import  BF_Pol_PWS
-from array_plotting import plotting
-from extract_peaks import findpeaks_XY, findpeaks_Pol
-from shift_stack import shift_traces
+from circ_array.array_info import array 
+from circ_array.beamforming_xy import BF_XY_PWS
+from circ_array.beamforming_polar import  BF_Pol_PWS
+from circ_array.array_plotting import plotting
+from circ_array.extract_peaks import findpeaks_XY, findpeaks_Pol
+from circ_array.shift_stack import shift_traces
 from obspy.taup import TauPyModel
 model = TauPyModel(model="prem")
 

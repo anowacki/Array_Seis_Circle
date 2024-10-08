@@ -3,7 +3,7 @@
 import obspy
 import numpy as np
 import matplotlib.pyplot as plt
-from array_plotting import plotting
+from circ_array.array_plotting import plotting
 
 st = obspy.read('./data/19970525/*SAC')
 

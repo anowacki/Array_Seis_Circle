@@ -9,7 +9,7 @@ This python script will test:
 
 import obspy
 import numpy as np
-from array_info import array
+from circ_array.array_info import array
 
 phase="SKS"
 phases=["SKS","SKKS","SKKKS","ScS","Sdiff"]

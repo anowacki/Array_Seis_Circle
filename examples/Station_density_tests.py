@@ -7,10 +7,10 @@ import obspy
 import matplotlib.pyplot as plt
 import numpy as np
 
-from array_info import array
-from make_sub_array import get_station_density_KDE
-from beamforming_xy import BF_XY_Lin
-from array_plotting import plotting
+from circ_array.array_info import array
+from circ_array.make_sub_array import get_station_density_KDE
+from circ_array.beamforming_xy import BF_XY_Lin
+from circ_array.array_plotting import plotting
 
 st = obspy.read('./data/19970525/*SAC')
 a = array(st)

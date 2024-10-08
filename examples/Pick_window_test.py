@@ -3,7 +3,7 @@
 # code to test the manual pick time window function.
 
 import obspy
-from manual_pick import pick_tw
+from circ_array.manual_pick import pick_tw
 
 st = obspy.read("./data/19990405/*SAC")
 phase = "SKS"

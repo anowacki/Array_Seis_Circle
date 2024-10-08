@@ -11,10 +11,10 @@ import matplotlib.pyplot as plt
 from obspy.taup import TauPyModel
 model = TauPyModel(model="prem")
 
-from array_info import array 
-from beamforming_xy import BF_XY_all, BF_XY_PWS, BF_XY_Lin
-from shift_stack import shift_traces 
-from array_plotting import plotting
+from circ_array.array_info import array 
+from circ_array.beamforming_xy import BF_XY_all, BF_XY_PWS, BF_XY_Lin
+from circ_array.shift_stack import shift_traces 
+from circ_array.array_plotting import plotting
 
 
 
