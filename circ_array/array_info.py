@@ -58,7 +58,7 @@ class array:
         mS = self.stream[0].stats.sac.nzmsec
 
         event_time = UTCDateTime(
-            year=Y, julday=JD, hour=H, minute=M, second=S, microsecond=mS
+            year=Y, julday=JD, hour=H, minute=M, second=S, microsecond=1000*mS
         )
 
         return event_time
