@@ -1,9 +1,9 @@
 import os
-from array_info import array
+from .array_info import array
 import pandas as pd
 import numpy as np
-from slow_vec_calcs import calculate_locus
-from geo_sphere_calcs import predict_pierce_points
+from .slow_vec_calcs import calculate_locus
+from .geo_sphere_calcs import predict_pierce_points
 
 def write_to_file_check_lines(filepath, header, newlines, strings):
     """

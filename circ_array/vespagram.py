@@ -1,7 +1,7 @@
 
 import numpy as np
 from numba import jit
-from shift_stack import linear_stack_baz_slow, pws_stack_baz_slow
+from .shift_stack import linear_stack_baz_slow, pws_stack_baz_slow
 
 @jit(nopython=True, fastmath=True)
 def Vespagram_Lin(traces, sampling_rate, geometry, distance, baz, smin, smax, s_space, type='circ',

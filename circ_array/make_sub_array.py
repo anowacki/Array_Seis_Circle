@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.neighbors import KernelDensity
 from sklearn.neighbors import BallTree
 from sklearn.cluster import DBSCAN
-from array_info import array
+from .array_info import array
 
 from sklearn.model_selection import GridSearchCV
 

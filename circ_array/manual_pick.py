@@ -3,7 +3,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-from array_info import array
+from .array_info import array
 
 # manually pick time window around phase
 def pick_tw(stream, phase, tmin=-150, tmax=150, align=False):

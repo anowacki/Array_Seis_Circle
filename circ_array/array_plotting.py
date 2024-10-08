@@ -2,8 +2,8 @@ import obspy
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy
-from array_info import array
-from extract_peaks import findpeaks_XY
+from .array_info import array
+from .extract_peaks import findpeaks_XY
 
 plt.set_cmap("turbo")
 
@@ -55,7 +55,7 @@ class plotting:
         Return:
             Plots record section, does not return anything.
         """
-        from array_info import array
+        from .array_info import array
         array = array(st)
 
         if phase is not None:
@@ -881,7 +881,7 @@ class plotting:
         x_thresh = np.array(peaks)[:, 0].astype(float)
         y_thresh = np.array(peaks)[:, 1].astype(float)
 
-        from cluster_utilities import cluster_utilities
+        from .cluster_utilities import cluster_utilities
 
         cu = cluster_utilities(labels=labels, points=peaks)
         means_xy, means_baz_slow = cu.cluster_means()

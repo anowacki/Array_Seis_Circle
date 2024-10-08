@@ -1,11 +1,11 @@
 import numpy as np
 from scipy.stats import circmean, circstd, circvar
 import obspy
-from slow_vec_calcs import get_slow_baz
-from array_info import array
-from utilities import myround
-from geo_sphere_calcs import relocate_event_baz_slow
-from shift_stack import linear_stack_baz_slow, shift_traces
+from .slow_vec_calcs import get_slow_baz
+from .array_info import array
+from .utilities import myround
+from .geo_sphere_calcs import relocate_event_baz_slow
+from .shift_stack import linear_stack_baz_slow, shift_traces
 import obspy.signal.filter as o
 from sklearn.neighbors import KDTree
 import os

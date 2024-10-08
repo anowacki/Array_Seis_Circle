@@ -1,7 +1,7 @@
 from numba import jit
 import numpy as np
-from shift_stack import shift_traces, roll_2D, linear_stack_baz_slow
-from slow_vec_calcs import get_slow_baz, get_max_power_loc
+from .shift_stack import shift_traces, roll_2D, linear_stack_baz_slow
+from .slow_vec_calcs import get_slow_baz, get_max_power_loc
 
 
 

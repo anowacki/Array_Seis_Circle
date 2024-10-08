@@ -2,7 +2,7 @@
 
 from numba import jit
 import numpy as np
-from geo_sphere_calcs import coords_lonlat_rad_bearing, haversine_deg
+from .geo_sphere_calcs import coords_lonlat_rad_bearing, haversine_deg
 
 
 @jit(nopython=True)

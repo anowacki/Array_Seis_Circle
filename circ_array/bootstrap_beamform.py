@@ -2,8 +2,8 @@
 import random 
 import numpy as np 
 import scipy 
-from beamforming_xy import BF_Noise_Threshold_Relative_XY
-from extract_peaks import findpeaks_XY
+from .beamforming_xy import BF_Noise_Threshold_Relative_XY
+from .extract_peaks import findpeaks_XY
 import numba as nb
 
 @nb.jit(nopython=True)
