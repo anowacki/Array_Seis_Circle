@@ -1,8 +1,11 @@
-*log
-*pdf
-./circ_array/__pycache__/*
-./scripts/__pycache__/*
-./scripts/Results/*
-__pycache__
+# File extensions
+*.log
+*.pdf
 *.pyc
+
+# Folder names
 .ipynb_checkpoints
+__pycache__
+
+# Specific files
+./scripts/Results/*
